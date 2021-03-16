@@ -61,15 +61,24 @@ list-style: none;
 }
 
 .intro_text{
-	font-size: 80px;
+	font-size: 67px;
+}
+
+.country_name{
+	font-size: 35px;
 }
 
 .uni_name{
-	font-size: 35px;
+	font-size: 25px;
+	font-weight:bold;
 }
 
 .header_bg{
 	background-color: black;
+}
+
+.align_content{
+	width: 100%;
 }
 
 /* Reset */
@@ -4283,6 +4292,16 @@ list-style: none;
 		body.is-loading .banner:after {
 			opacity: 1.0;
 			visibility: visible;
+		}
+
+		@media screen and (max-width: 1400px) {
+
+			.banner.full {
+				padding: 0;
+				min-height: 75vh;
+				height: 75vh !important;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
